@@ -13,48 +13,48 @@
 &emsp;&emsp;nod_start nod_final cod_acceptat <br /><br />
 &emsp;Outputul va afisa in consola prima data structura automatului care trebuie minimizat, dupa transformarea starilor initiale si finale (daca este cazul), iar apoi se va prezenta structura acestuia dupa minimizare. <br /><br />
 &emsp;Un exemplu de input poate fi regasit in fisierul de intrare 'int'. <br />
-&emsp;&emsp; **a b c d e f ** <br />
-&emsp;&emsp; ** 0 1 ** <br />
-&emsp;&emsp;**a **<br />
-&emsp;&emsp;**c d e **<br />
-&emsp;&emsp;**12 **<br />
-&emsp;&emsp;**a 0 b **<br />
-&emsp;&emsp;**a 1 c **<br />
-&emsp;&emsp;**b 0 a **<br />
-&emsp;&emsp;**b 1 d **<br />
-&emsp;&emsp;**c 0 e **<br />
-&emsp;&emsp;**c 1 f **<br />
-&emsp;&emsp;**d 0 e **<br />
-&emsp;&emsp;**d 1 f **<br />
-&emsp;&emsp;**e 0 e **<br />
-&emsp;&emsp;**e 1 f **<br />
+&emsp;&emsp; **a b c d e f** <br />
+&emsp;&emsp; **0 1** <br />
+&emsp;&emsp;**a**<br />
+&emsp;&emsp;**c d e**<br />
+&emsp;&emsp;**12**<br />
+&emsp;&emsp;**a 0 b**<br />
+&emsp;&emsp;**a 1 c**<br />
+&emsp;&emsp;**b 0 a**<br />
+&emsp;&emsp;**b 1 d**<br />
+&emsp;&emsp;**c 0 e**<br />
+&emsp;&emsp;**c 1 f**<br />
+&emsp;&emsp;**d 0 e**<br />
+&emsp;&emsp;**d 1 f**<br />
+&emsp;&emsp;**e 0 e**<br />
+&emsp;&emsp;**e 1 f**<br />
 &emsp;&emsp;**f 0 f** <br />
 &emsp;&emsp;**f 1 f** <br /><br />
 &emsp;Outputul corespunzator acestuia este: <br />
-&emsp;&emsp;**Inainte de minimizare: **<br />
-&emsp;&emsp;**a -- 0 --> b **<br />
+&emsp;&emsp;**Inainte de minimizare:**<br />
+&emsp;&emsp;**a -- 0 --> b**<br />
 &emsp;&emsp;**a -- 1 --> c** <br />
-&emsp;&emsp;**b -- 0 --> a **<br />
+&emsp;&emsp;**b -- 0 --> a**<br />
 &emsp;&emsp;**b -- 1 --> d** <br />
-&emsp;&emsp;**c -- 0 --> e **<br />
-&emsp;&emsp;**c -- 1 --> f **<br />
-&emsp;&emsp;**d -- 0 --> e **<br />
-&emsp;&emsp;**d -- 1 --> f **<br />
-&emsp;&emsp;**e -- 0 --> e **<br />
-&emsp;&emsp;**e -- 1 --> f **<br />
-&emsp;&emsp;**f -- 0 --> f **<br />
-&emsp;&emsp;**f -- 1 --> f **<br />
-&emsp;&emsp;**@ -- 0 --> @ **<br />
-&emsp;&emsp;**@ -- 1 --> @ **<br />
-&emsp;&emsp;**Dupa minimizare: **<br />
+&emsp;&emsp;**c -- 0 --> e**<br />
+&emsp;&emsp;**c -- 1 --> f**<br />
+&emsp;&emsp;**d -- 0 --> e**<br />
+&emsp;&emsp;**d -- 1 --> f**<br />
+&emsp;&emsp;**e -- 0 --> e**<br />
+&emsp;&emsp;**e -- 1 --> f**<br />
+&emsp;&emsp;**f -- 0 --> f**<br />
+&emsp;&emsp;**f -- 1 --> f**<br />
+&emsp;&emsp;**@ -- 0 --> @**<br />
+&emsp;&emsp;**@ -- 1 --> @**<br />
+&emsp;&emsp;**Dupa minimizare:**<br />
 &emsp;&emsp;**Noua stare initiala este: a,b** <br />
-&emsp;&emsp;**Noua stare finala este: c,d,e **<br />
-&emsp;&emsp;**Noul automat are: 3 stari **<br />
-&emsp;&emsp;**c,d,e -- 0 --> c,d,e **<br />
-&emsp;&emsp;**c,d,e -- 1 --> @,f **<br />
-&emsp;&emsp;**a,b -- 0 --> a,b **<br />
-&emsp;&emsp;**a,b -- 1 --> c,d,e **<br />
-&emsp;&emsp;** @,f -- 0 --> @,f **<br />
-&emsp;&emsp;** @,f -- 1 --> @,f **<br />
+&emsp;&emsp;**Noua stare finala este: c,d,e**<br />
+&emsp;&emsp;**Noul automat are: 3 stari**<br />
+&emsp;&emsp;**c,d,e -- 0 --> c,d,e**<br />
+&emsp;&emsp;**c,d,e -- 1 --> @,f**<br />
+&emsp;&emsp;**a,b -- 0 --> a,b**<br />
+&emsp;&emsp;**a,b -- 1 --> c,d,e**<br />
+&emsp;&emsp;**@,f -- 0 --> @,f**<br />
+&emsp;&emsp;**@,f -- 1 --> @,f**<br />
 
 
