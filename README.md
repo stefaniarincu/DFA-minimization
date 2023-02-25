@@ -13,7 +13,7 @@
 &emsp;&emsp;nod_start nod_final cod_acceptat <br /><br />
 &emsp;Outputul va afisa in consola prima data structura automatului care trebuie minimizat, dupa transformarea starilor initiale si finale (daca este cazul), iar apoi se va prezenta structura acestuia dupa minimizare. <br /><br />
 &emsp;Un exemplu de input poate fi regasit in fisierul de intrare 'int'. <br />
-&emsp;&emsp;***a b c d e f <br />
+&emsp;&emsp;**a b c d e f <br />
 &emsp;&emsp;0 1 <br />
 &emsp;&emsp;a <br />
 &emsp;&emsp;c d e <br />
@@ -29,9 +29,9 @@
 &emsp;&emsp;e 0 e <br />
 &emsp;&emsp;e 1 f <br />
 &emsp;&emsp;f 0 f <br />
-&emsp;&emsp;f 1 f*** <br /><br />
+&emsp;&emsp;f 1 f** <br /><br />
 &emsp;Outputul corespunzator acestuia este: <br />
-&emsp;&emsp;***Inainte de minimizare: <br />
+&emsp;&emsp;**Inainte de minimizare: <br />
 &emsp;&emsp;a -- 0 --> b <br />
 &emsp;&emsp;a -- 1 --> c <br />
 &emsp;&emsp;b -- 0 --> a <br />
@@ -55,6 +55,6 @@
 &emsp;&emsp;a,b -- 0 --> a,b <br />
 &emsp;&emsp;a,b -- 1 --> c,d,e <br />
 &emsp;&emsp;@,f -- 0 --> @,f <br />
-&emsp;&emsp;@,f -- 1 --> @,f ***<br />
+&emsp;&emsp;@,f -- 1 --> @,f **<br />
 
 
