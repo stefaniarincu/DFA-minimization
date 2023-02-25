@@ -19,7 +19,17 @@ class DFA(object):
 
             self.part = [self.final_states]
 
+            self.states.append('@')
             self.part.append([x for x in self.states if x not in self.final_states])
+
+            self.transitions['@'] = {}
+            for i in self.transitions:
+                if len(self.transitions[i]) != len(self.values):
+                    for x in self.values:
+                        self.transitions['@'][x] = '@'
+                        if x not in self.transitions[i]:
+                            self.transitions[i][x] = '@'
+
 
     def remove(self):
         g = defaultdict(list)
@@ -102,4 +112,3 @@ dfa.minimize()
 for key in dfa.transitions:
     for sec_key in dfa.transitions[key]:
         print(f'{key} -- {sec_key} --> {dfa.transitions[key][sec_key]}')
-
